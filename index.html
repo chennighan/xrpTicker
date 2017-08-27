@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ripple Ticker</title>
+</head>
+<body>
+    <script>(function(){function a(){fetch('https://cors-anywhere.herokuapp.com/https://api.bitfinex.com/v2/ticker/tXRPUSD').then(e=>e.json()).then(e=>{b(e[0])})}function b(d){document.title='XRP: '+d}a(),window.setInterval(function(){a()},5e3)})();</script>
+</body>
+</html>
